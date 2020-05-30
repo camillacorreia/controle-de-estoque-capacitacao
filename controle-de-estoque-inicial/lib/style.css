@@ -1,0 +1,183 @@
+body {
+    background: #000;
+}
+
+/* estilo do header */
+
+header {
+    background: #000;
+}
+
+#header_central {
+    background: #000;
+}
+
+#header_central .logo img {
+    background: #000;
+}
+
+#header_central .title {
+    background: #000;
+}
+
+#header_menu {
+    background: #000;
+}
+
+#header_menu h5 {
+    background: #000;
+}
+
+#header_menu h5 a{
+    background: #000;
+}
+
+#header_menu h5 a:hover{
+    background: #000;
+}
+
+#header_menu ul a{
+    background: #000;
+}
+
+#header_menu ul a:hover{
+    background: #000;
+}
+
+/* fim do estilo do header */
+
+/* estilo do footer */
+
+footer {
+    background: #000;
+}
+
+#footer_central {
+    background: #000;
+}
+
+#footer_central p {
+    background: #000;
+}
+
+/* fim do estilo do footer */
+
+/* estilo da pesquisa */
+
+main #janela_pesquisa {
+    background: #000;
+}
+
+main #janela_pesquisa form {
+    background: #000;
+}
+
+main #janela_pesquisa form input[type="text"] {
+    background: #000;
+}
+
+main #janela_pesquisa form input[type="image"] {
+    background: #000;
+}
+/* fim do estilo da pesquisa */
+
+/* estilo da listagem */
+main #listagem_produtos {
+    background: #000;
+}
+
+main #listagem_produtos ul {
+    background: #000;
+}
+
+main #listagem_produtos li {
+    background: #000;
+}
+
+main #listagem_produtos li h3 {
+    background: #000;
+}
+
+main #listagem_produtos li img {
+    background: #000;
+}
+
+main #listagem_produtos li a {
+    background: #000;
+}
+
+main #listagem_produtos li a:hover {
+    background: #000;
+}
+
+/* fim do estilo da listagem */
+
+/* estilo do detalhe */
+
+#detalhe_produto {
+    background: #000;
+}
+
+#detalhe_produto ul {
+    background: #000;   
+}
+
+#detalhe_produto li {
+    background: #000;
+}   
+
+#detalhe_produto li img{
+    background: #000;
+}
+
+#detalhe_produto h2 {
+    background: #000;   
+}
+
+/* fim do estilo do detalhe */
+
+/* estilo de incluir novo produto */
+main #janela_incluir {
+    background: #000;
+}
+
+main #janela_incluir form {
+    background: #000;   
+}
+
+main #janela_incluir form h2  {
+    background: #000;
+}
+
+main #janela_incluir form label {
+    background: #000;  
+}
+
+main #janela_incluir form input[type="text"] {
+    background: #000;background: #000;
+}
+
+main #janela_incluir form select {
+    background: #000;
+}
+
+main #janela_incluir form input[type="radio"] {
+    background: #000;background: #000;
+}
+
+main #janela_incluir form input[type="file"] {
+    background: #000;
+}
+
+main #janela_incluir form input[type="submit"] {
+    background: #000;
+}
+
+main #janela_incluir form input:hover[type="submit"] {
+    background-color: #000;
+}
+
+/* fim do estilo de incluir novo produto */
+
+
+

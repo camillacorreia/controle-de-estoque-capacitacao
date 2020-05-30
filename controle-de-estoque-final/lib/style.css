@@ -1,0 +1,295 @@
+body {
+    background: rgb(249, 251, 253, 0.9);
+    color: #424242;
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+/* estilo do header */
+
+header {
+    width: 97%;
+    height: 97%;
+    background-color: #000;
+    border-bottom: 6px solid #f2a900;
+    padding: 20px;
+}
+
+#header_central {
+    width: 800px;
+    height: 67px;
+    margin: 50px;
+}
+
+#header_central .logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 90px;
+}
+
+#header_central .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40x;
+    font-weight: bold;
+    color: #f2a900;
+    text-align: center;
+    margin-left: 350px;
+}
+
+#header_menu {
+    position: absolute;
+    top:0;
+    right:60px;
+    text-align: right;
+    margin-top: 100px;
+}
+
+#header_menu h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin:2px 0 0 0; 
+    padding:0;
+    color: #fff;
+}
+
+#header_menu h5 a{
+    color: #f2a900;
+    text-decoration: none;
+}
+
+#header_menu h5 a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+#header_menu ul a{
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+#header_menu ul a:hover{
+    color: #f2a900;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+/* fim do estilo do header */
+
+/* estilo do footer */
+
+footer {
+    clear: both;
+    width:100%;
+    height:100%;
+    border-top:1px solid #ddd;
+}
+
+#footer_central {
+    width:800px;
+    margin:0 auto;
+}
+
+#footer_central p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* fim do estilo do footer */
+
+/* estilo da pesquisa */
+
+main #janela_pesquisa {
+    width:860px;
+    height: 55px;
+    margin:0 auto 30px;
+    border-bottom:2px dotted #f2a900;
+}
+
+main #janela_pesquisa form {
+    width:470px;
+    margin:10px auto;
+}
+
+main #janela_pesquisa form input[type="text"] {
+    width:380px;
+    height: 19px;
+    padding:10px;
+    border:1px solid #f2a900;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float:left;
+    outline: none;
+}
+
+main #janela_pesquisa form input[type="image"] {
+    outline: none;
+    cursor: pointer;
+}
+/* fim do estilo da pesquisa */
+
+/* estilo da listagem */
+main #listagem_produtos {
+    width:860px;
+    margin:0 auto;
+}
+
+main #listagem_produtos ul {
+    float:left;
+    margin:5px 10px 40px;
+    padding:0;
+    width:400px;
+    height: 80px;
+}
+
+main #listagem_produtos li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+
+main #listagem_produtos li h3 {
+    margin:0;
+    font-family: "Open Sans", sans-serif;
+}
+
+main #listagem_produtos li img {
+    border:1px solid #424242;
+    float:left;
+    margin-right: 10px;  
+    width: 100px;
+    height: 100px;
+}
+
+main #listagem_produtos li a {
+    color: #424242;
+    text-decoration: none;
+}
+
+main #listagem_produtos li a:hover {
+    color: #f2a900;
+    text-decoration: none;
+}
+
+/* fim do estilo da listagem */
+
+/* estilo do detalhe */
+
+#detalhe_produto {
+    width: 800px;
+    margin: 80px auto;
+}
+
+#detalhe_produto ul {
+    margin:0;
+    padding:0;   
+}
+
+#detalhe_produto li {
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    padding:5px;
+}   
+
+#detalhe_produto li img{
+    float:left;
+    border:1px solid #ddd;
+    width:250px;
+    height:250px;
+    margin-right: 10px;
+    border-color: #f2a900;
+}
+
+#detalhe_produto h2 {
+    margin:0;   
+}
+
+/* fim do estilo do detalhe */
+
+/* estilo de incluir novo produto */
+main #janela_incluir {
+    width:860px;
+    margin:50px auto 30px;
+}
+
+main #janela_incluir form {
+    width:470px;
+    margin:10px auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #000;     
+}
+
+main #janela_incluir form h2  {
+    font-family: "Open Sans", sans-serif;
+    color:#000;
+}
+
+main #janela_incluir form label {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #424242;    
+}
+
+main #janela_incluir form input[type="text"] {
+    width:350px;
+    padding:10px;
+    border:1px solid #f2a900;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main #janela_incluir form select {
+    display: block;
+    margin-bottom: 25px;
+}
+
+main #janela_incluir form input[type="radio"] {
+    padding:10px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+main #janela_incluir form input[type="file"] {
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main #janela_incluir form input[type="submit"] {
+    display: block;
+    padding:10px 20px;
+    margin-top:15px;
+    color: #FFF;
+    border:0;
+    border-radius: 5px;
+    background-color: #f2a900;
+    outline: none;
+    cursor: pointer;
+}
+
+main #janela_incluir form input:hover[type="submit"] {
+    background-color: #000;
+}
+
+/* fim do estilo de incluir novo produto */
+
+
+

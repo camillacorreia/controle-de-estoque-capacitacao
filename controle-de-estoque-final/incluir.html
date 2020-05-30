@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Controle de Estoque</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        
+        <!-- estilo -->
+        <link href="lib/style.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <header>
+
+            <div id="header_central">
+                
+                <div class="logo">
+                    <img src="lib/img/logo.png">
+                </div>
+
+                <div class="title">
+                    <h1>CONTROLE <br> DE ESTOQUE</h1>
+                </div>
+
+                <div id="header_menu">
+                    <h5>Bem vindo(a), Camilla. <a href="#"> Sair</a></h5>
+                    <ul>
+                        <li><a href="incluir.html">Produtos</a></li>
+                        <li><a href="#">Fornecedores</a></li>
+                        <li><a href="#">Usuários</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <div id="janela_incluir">
+
+                <form action="#" method="post">
+                    <h2>Incluir Novo Produto</h2>
+                    
+                    <!-- campo de nome do produto, código de barra e descrição-->
+                    <input type="text" name="nomeproduto" placeholder="Nome do Produto">
+                    <input type="text" name="descricao" placeholder="Descrição">
+                    <input type="text" name="codigobarra" placeholder="Código de Barra">
+
+                    <!-- campo de fornecedor -->
+                    <label>Selecione o fornecedor do produto</label>
+                    <select name="fornecedorID">
+                        <option value="1"> Americanas </option>     
+                        <option value="2"> Magazine Luiza </option> 
+                        <option value="3"> Extra </option>                   
+                    </select> 
+
+                    <!-- campo de tempo de entrega -->
+                    <label>Tempo de Entrega</label>
+                    <input type="radio" name="tempoentrega" value="5">5 dias
+                    <input type="radio" name="tempoentrega" value="8">8 dias
+                    <input type="radio" name="tempoentrega" value="15">15 dias
+                    <input type="radio" name="tempoentrega" value="30">30 dias
+                                       
+                    <!-- campo de preços -->
+                    <input type="text" name="precorevenda" placeholder="Preço Revenda">
+                    <input type="text" name="precounitario" placeholder="Preço Unitário">                      
+                    
+                    <!-- campo de estoque -->
+                    <input type="text" name="estoque" placeholder="Estoque (unidades)">
+                    
+                    <!-- campo de foto grande -->
+                    <label>Foto Grande</label>
+                    <input type="file" name="foto_grande">
+                    
+                    <!-- campo de foto pequena -->
+                    <label>Foto Pequena</label>
+                    <input type="file"   name="foto_pequena">
+                    
+                    <!-- botão submit -->
+                    <input type="submit" value="Inserir novo produto">                                
+                </form>
+                
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div id="footer_central">
+                <p>Controle de Estoque criado para a capacitação de HTML e CSS da TITAN</p>
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
